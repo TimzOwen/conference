@@ -5,6 +5,6 @@
     <title>Greeting</title>
 </head>
 <body>
-    <h1>${message}</h1>
+    <h1>Greetings from Spring MVC</h1>
 </body>
 </html>
