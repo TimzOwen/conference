@@ -8,7 +8,6 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-import java.nio.file.Files;
 
 @Configuration
 public class ConferenceConfig implements WebMvcConfigurer {
