@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Registration Page here</h1>
-    <form:form>
+    <form:form modelAttribute="registration">
         <table>
             <tr>
                 <td>
