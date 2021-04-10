@@ -7,9 +7,16 @@ import java.util.Map;
 
 @Controller
 public class GreetingController {
+
     @GetMapping("greeting")
     public String greeting(Map<String, Object> model){
         model.put("message","Spring MVC");
         return "greeting";
+    }
+
+    @GetMapping("thyme")
+    public String thyme(Map<String, Object> model){
+        model.put("message","Hello thymeleaf");
+        return "thyme";
     }
 }
