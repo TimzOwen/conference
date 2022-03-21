@@ -5,6 +5,6 @@
     <title>Timz owen</title>
 </head>
 <body>
-    <h1>This is spring test</h1>
+<h1>${message}</h1>
 </body>
 </html>
