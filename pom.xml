@@ -5,15 +5,26 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<version>2.6.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.timzowen</groupId>
+=======
+		<version>2.4.4</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.codewithtimzowen</groupId>
+>>>>>>> bee3cca4bbec1f738556cbad2017a33af599b242
 	<artifactId>conference</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>conference</name>
+<<<<<<< HEAD
 	<description>Demo project for Spring Boot</description>
+=======
+	<description>Conference spring project </description>
+>>>>>>> bee3cca4bbec1f738556cbad2017a33af599b242
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -23,7 +34,10 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+<<<<<<< HEAD
 <!--		tomcat war config -->
+=======
+>>>>>>> bee3cca4bbec1f738556cbad2017a33af599b242
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
@@ -31,6 +45,15 @@
 		</dependency>
 
 		<dependency>
+<<<<<<< HEAD
+=======
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.1.1.Final</version>
+		</dependency>
+
+		<dependency>
+>>>>>>> bee3cca4bbec1f738556cbad2017a33af599b242
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
